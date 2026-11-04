@@ -52,12 +52,14 @@
 
 <!-- LEETCODE -->
 <!-- GITHUB STATISTICS -->
+
+<!-- GITHUB INSIGHTS -->
 <h2 align="center">📊 GitHub Statistics</h2>
-  <p align="center">
+
+<p align="center">
   <img src="https://yourinsights.vercel.app/api/insight?username=nurazim-dev&theme=github_dark&graph=true&languages=true&streak=true&stats=true&header=true&summary=true&profile=false&border=false" alt="nurazim-dev's GitHub Insights" />
-  </p> 
-  
 </p>
+
 
 
 <h2 align="center">🧠 LeetCode</h2>
