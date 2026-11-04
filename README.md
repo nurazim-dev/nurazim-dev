@@ -1,16 +1,10 @@
-<!-- ==============================================================
-  NURAZIM'S GITHUB PROFILE README
-  Все пояснения в HTML-комментариях скрыты в опубликованном профиле.
-  Здесь оставлены подсказки, чтобы ты мог менять README самостоятельно.
-
-  КАК МЕНЯТЬ:
-  1. Найди нужный раздел по заголовку.
-  2. Меняй текст или ссылки внутри этого раздела.
-  3. Не удаляй строки с ![...](...) — они выводят карточки статистики.
-  4. Username GitHub: nurazim-dev | Username LeetCode: nurazimdev
+ <!-- ==============================================================
+     NURAZIM'S GITHUB PROFILE README
+     GitHub: nurazim-dev
+     LeetCode: nurazimdev
 ============================================================== -->
 
-<!-- HEADER: можешь заменить Nurazim на имя или ник, который хочешь показывать. -->
+<!-- HEADER -->
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=210&section=header&text=Nurazim&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Web%20Developer%20in%20Progress&descAlignY=56&descSize=18"
@@ -19,7 +13,7 @@
   />
 </p>
 
-<!-- ANIMATED INTRO: текст можно менять после lines=; пробелы и символы в URL кодируются. -->
+<!-- ANIMATED INTRO -->
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1100&color=70A5FD&center=true&vCenter=true&width=760&lines=Learning+Web+Development;HTML+%7C+CSS+%7C+JavaScript;Building+towards+Full-Stack+Development"
@@ -27,7 +21,7 @@
   />
 </p>
 
-<!-- ABOUT: здесь коротко расскажи о себе. Не добавляй технологии, которыми ещё не владеешь. -->
+<!-- ABOUT ME -->
 <h2 align="center">👋 About Me</h2>
 
 <p align="center">
@@ -36,7 +30,7 @@
   I enjoy learning, solving problems and improving step by step.
 </p>
 
-<!-- CURRENT SKILLS: оставь здесь только то, что уже изучил или используешь. -->
+<!-- CURRENT SKILLS -->
 <h2 align="center">🛠️ Current Skills</h2>
 
 <p align="center">
@@ -45,81 +39,107 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-<!-- ROADMAP: это планируемые технологии, а не список уже освоенных навыков.
-     Когда начнёшь изучать конкретную технологию, можешь перенести её в Current Skills. -->
+<!-- LEARNING ROADMAP -->
 <h2 align="center">🧭 My Learning Roadmap</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-Next%20step-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React — next step" />
-  <img src="https://img.shields.io/badge/Node.js-Roadmap-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js — roadmap" />
-  <img src="https://img.shields.io/badge/Express.js-Roadmap-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js — roadmap" />
-  <img src="https://img.shields.io/badge/REST%20APIs-Roadmap-6D5DFC?style=for-the-badge" alt="REST APIs — roadmap" />
-  <img src="https://img.shields.io/badge/SQL%20%2F%20Databases-Roadmap-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL and databases — roadmap" />
+  <img src="https://img.shields.io/badge/React-Next%20Step-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-Roadmap-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-Roadmap-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/REST%20APIs-Roadmap-6D5DFC?style=for-the-badge" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/SQL%20%2F%20Databases-Roadmap-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL and databases" />
 </p>
 
-<!-- LEETCODE: username уже установлен. Карточка показывает статистику и heatmap LeetCode.
-     Если когда-нибудь поменяешь username, замени nurazimdev в URL и ссылке ниже. -->
+<!-- LEETCODE -->
 <h2 align="center">🧠 LeetCode</h2>
 
 <p align="center">
   <a href="https://leetcode.com/u/nurazimdev/">
     <img
       src="https://leetcard.jacoblin.cool/nurazimdev?theme=dark&font=Fira_Code&ext=heatmap&animation=true"
-      alt="Nurazim's LeetCode statistics and activity heatmap"
+      alt="Nurazim's LeetCode statistics"
     />
   </a>
 </p>
 
-<!-- GITHUB STATS: данные берутся автоматически из публичной активности GitHub.
-     При небольшом количестве репозиториев некоторые значения могут быть нулевыми. -->
+<!-- GITHUB STATISTICS -->
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <p align="center">
   <a href="https://github.com/nurazim-dev">
-    <img height="170" src="https://streak-stats.demolab.com?user=nurazim-dev&theme=tokyonight&hide_border=true" alt="Nurazim's GitHub streak" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurazim-dev&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics" />
+  </a>
+  <a href="https://github.com/nurazim-dev">
+    <img height="170" src="https://streak-stats.demolab.com?user=nurazim-dev&theme=tokyonight&hide_border=true" alt="GitHub streak" />
   </a>
 </p>
 
-<!-- 3D CONTRIBUTION CALENDAR: файл создаётся workflow profile-3d.yml.
-     Не удаляй эту картинку до первого успешного запуска 
+<!-- 3D CONTRIBUTIONS -->
+<h2 align="center">🗓️ 3D Contribution Calendar</h2>
 
-<!-- SNAKE: SVG создаётся workflow snake.yml каждый день.
-     Если GitHub показывает сломанную картинку, сначала запусти workflow вручную в Actions. -->
+<p align="center">
+  <img
+    src="./profile-3d-contrib/profile-green-animate.svg"
+    alt="3D GitHub contribution calendar"
+    width="100%"
+  />
+</p>
+
+<!-- CONTRIBUTION SNAKE -->
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-    <img src="./dist/github-snake.svg" alt="Animated snake moving through GitHub contributions" width="100%" />
+    <img
+      src="./dist/github-snake.svg"
+      alt="Animated GitHub contribution snake"
+      width="100%"
+    />
   </picture>
 </p>
 
-<!-- FUTURE PROJECTS:
-     Сейчас у тебя ещё нет опубликованных проектов, поэтому отдельный блок Projects не показывается.
-     Когда появится первый проект, скопируй шаблон ниже, убери комментарии и замени данные:
-
-     <h2 align="center">🚀 Featured Projects</h2>
-     <p align="center">
-       <a href="https://github.com/nurazim-dev/REPOSITORY-NAME">
-         <img src="https://github-readme-stats.vercel.app/api/pin/?username=nurazim-dev&repo=REPOSITORY-NAME&theme=tokyonight&hide_border=true" alt="Project name" />
-       </a>
-     </p>
--->
-
-<!-- CONTACT: добавляй сюда только те способы связи, которыми действительно пользуешься. -->
-<h2 align="center">🔗 Find Me</h2>
+<!-- CONTACT AND SOCIAL NETWORKS -->
+<h2 align="center">🌐 Connect With Me</h2>
 
 <p align="center">
   <a href="https://github.com/nurazim-dev">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+  <a href="https://www.linkedin.com/in/nurazimdev">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://t.me/nurazimdev">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  <a href="https://www.instagram.com/nura3im">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
   <a href="https://leetcode.com/u/nurazimdev/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
+  <a href="mailto:nurazimdev@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
-<!-- FOOTER: можно заменить цвета в параметре color=... -->
+<!-- SOCIAL LINKS -->
+<p align="center">
+  <a href="https://github.com/nurazim-dev">GitHub</a> •
+  <a href="https://www.linkedin.com/in/nurazimdev">LinkedIn</a> •
+  <a href="https://t.me/nurazimdev">Telegram</a> •
+  <a href="https://www.instagram.com/nura3im">Instagram</a> •
+  <a href="https://leetcode.com/u/nurazimdev/">LeetCode</a>
+</p>
+
+<p align="center">
+  <a href="mailto:nurazimdev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-nurazimdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email address" />
+  </a>
+</p>
+
+<!-- FOOTER -->
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:243B55,100:141E30&height=120&section=footer"
