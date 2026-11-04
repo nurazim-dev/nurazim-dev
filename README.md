@@ -53,9 +53,10 @@
 <!-- LEETCODE -->
 <!-- GITHUB STATISTICS -->
 <h2 align="center">📊 GitHub Statistics</h2>
-  <a href="https://github.com/nurazim-dev">
-    <img height="170" src="https://streak-stats.demolab.com?user=nurazim-dev&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  </a>
+  <p align="center">
+  <img src="https://yourinsights.vercel.app/api/insight?username=nurazim-dev&theme=github_dark&graph=true&languages=true&streak=true&stats=true&header=true&summary=true&profile=false&border=false" alt="nurazim-dev's GitHub Insights" />
+  </p> 
+  
 </p>
 
 
