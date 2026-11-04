@@ -51,6 +51,14 @@
 </p>
 
 <!-- LEETCODE -->
+<!-- GITHUB STATISTICS -->
+<h2 align="center">📊 GitHub Statistics</h2>
+  <a href="https://github.com/nurazim-dev">
+    <img height="170" src="https://streak-stats.demolab.com?user=nurazim-dev&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  </a>
+</p>
+
+
 <h2 align="center">🧠 LeetCode</h2>
 
 <p align="center">
@@ -62,28 +70,8 @@
   </a>
 </p>
 
-<!-- GITHUB STATISTICS -->
-<h2 align="center">📊 GitHub Statistics</h2>
 
-<p align="center">
-  <a href="https://github.com/nurazim-dev">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=nurazim-dev&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics" />
-  </a>
-  <a href="https://github.com/nurazim-dev">
-    <img height="170" src="https://streak-stats.demolab.com?user=nurazim-dev&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  </a>
-</p>
 
-<!-- 3D CONTRIBUTIONS -->
-<h2 align="center">🗓️ 3D Contribution Calendar</h2>
-
-<p align="center">
-  <img
-    src="./profile-3d-contrib/profile-green-animate.svg"
-    alt="3D GitHub contribution calendar"
-    width="100%"
-  />
-</p>
 
 <!-- CONTRIBUTION SNAKE -->
 <h2 align="center">🐍 Contribution Snake</h2>
@@ -125,19 +113,7 @@
 </p>
 
 <!-- SOCIAL LINKS -->
-<p align="center">
-  <a href="https://github.com/nurazim-dev">GitHub</a> •
-  <a href="https://www.linkedin.com/in/nurazimdev">LinkedIn</a> •
-  <a href="https://t.me/nurazimdev">Telegram</a> •
-  <a href="https://www.instagram.com/nura3im">Instagram</a> •
-  <a href="https://leetcode.com/u/nurazimdev/">LeetCode</a>
-</p>
 
-<p align="center">
-  <a href="mailto:nurazimdev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-nurazimdev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email address" />
-  </a>
-</p>
 
 <!-- FOOTER -->
 <p align="center">
