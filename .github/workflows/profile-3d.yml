@@ -1,0 +1,40 @@
+name: Generate 3D Contribution Calendar
+
+on:
+  # Автоматическое обновление каждый день в 00:00 по времени Кыргызстана (18:00 UTC).
+  schedule:
+    - cron: "0 18 * * *"
+  # Позволяет запустить workflow вручную из GitHub Actions.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Та же группа, что и у snake.yml, чтобы push не конфликтовали друг с другом.
+concurrency:
+  group: profile-generated-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit generated SVG files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update 3D contribution calendar"
+            git push
+          fi

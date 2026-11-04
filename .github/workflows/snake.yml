@@ -1,0 +1,43 @@
+name: Generate Contribution Snake
+
+on:
+  # Автоматическое обновление каждый день в 06:00 по времени Кыргызстана (00:00 UTC).
+  schedule:
+    - cron: "0 0 * * *"
+  # Позволяет запустить workflow вручную из GitHub Actions.
+  workflow_dispatch:
+
+# Разрешаем workflow сохранять созданные SVG-файлы в репозитории.
+permissions:
+  contents: write
+
+# Не запускаем генерацию Snake и 3D-календаря одновременно: оба workflow делают push.
+concurrency:
+  group: profile-generated-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: nurazim-dev
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated SVG files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update contribution snake"
+            git push
+          fi
